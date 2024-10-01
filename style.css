@@ -1,0 +1,49 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 30px;
+  height: 100vh;
+}
+
+#container {
+  width: 50%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+#container > div {
+  text-align: center;
+}
+
+h1 {
+  margin: auto 0;
+}
+
+#text-block-1 {
+  background-color: rgb(116, 148, 255);
+  height: 100px;
+  line-height: 100px;
+}
+
+#img-block-1 {
+  background-color: rgb(161, 237, 108);
+  height: 300px;
+  float: left;
+  width: 75%;
+  line-height: 300px;
+}
+
+#text-block-2 {
+  background-color: rgb(117, 157, 88);
+  height: 300px;
+  float: right;
+  width: 25%;
+  line-height: 300px;
+}
+
+#img-block-2 {
+  clear: both;
+  height: 200px;
+  line-height: 200px;
+  background-color: rgb(255, 172, 234);
+}
